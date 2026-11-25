@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wedding Dances | Dance d'Elegance</title>
+<meta name="description" content="Wedding dance lessons and choreography in Medina, Ohio. Private packages, a group workshop, and family dances.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0b0a0b;--velvet:#151115;--wine:#5a1f4e;--gold:#cfa646;--brass:#d4af5a;--blush:#f4f2f4;--paper:#fff;--text:#171317;--muted:#6c646d;--line:#e3dee3;
+--display:"Jost","Futura","Century Gothic",system-ui,sans-serif;--body:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:var(--body);color:var(--text);background:var(--paper);line-height:1.5;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}a{color:inherit}
+:focus-visible{outline:3px solid var(--brass);outline-offset:3px;border-radius:4px}
+.wrap{width:min(1120px,100% - 40px);margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:.85rem 1.5rem;border-radius:999px;border:1.5px solid transparent;font-weight:600;font-size:1rem;text-decoration:none;transition:background .2s,color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}.btn-gold:hover{background:#e2c070}
+.btn-line{border-color:rgba(255,255,255,.55);color:#fff}.btn-line:hover{background:#fff;color:var(--ink)}
+.btn-dark{background:var(--ink);color:#fff}.btn-dark:hover{background:var(--velvet)}
+.btn-sm{padding:.55rem 1.1rem;font-size:.95rem}
+header{position:fixed;inset:0 0 auto 0;z-index:20;background:rgba(11,10,11,.94);backdrop-filter:blur(8px);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:68px;color:#fff}
+.mark{font-family:var(--display);font-weight:500;font-size:1.45rem;text-decoration:none;letter-spacing:.04em}
+nav{display:flex;align-items:center;gap:1.75rem}
+nav a:not(.btn){text-decoration:none;font-weight:500;font-size:.98rem;opacity:.9}
+nav a:not(.btn):hover{opacity:1;text-decoration:underline;text-underline-offset:6px;text-decoration-color:var(--brass)}
+.hero{background:radial-gradient(700px 420px at 80% 25%,rgba(90,31,78,.32) 0%,transparent 65%),var(--ink);color:#fff;padding:130px 0 90px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+h1,h2{font-family:var(--display);font-weight:400;letter-spacing:-.01em}
+.hero h1{font-size:clamp(3rem,7vw,5.4rem);line-height:.98;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--brass)}
+.hero p{margin-top:1.3rem;font-size:1.25rem;max-width:26ch;color:#eadbe0}
+.hero .cta{margin-top:2rem;display:flex;flex-wrap:wrap;gap:.8rem}
+.arch{aspect-ratio:4/5;max-width:380px;width:100%;margin-inline:auto;border-radius:999px 999px 0 0;background:#fff url("wedding-dance.jpg") center top/cover no-repeat;box-shadow:0 0 0 10px rgba(212,175,90,.28),0 30px 60px rgba(0,0,0,.55)}
+.sec{padding:90px 0}
+.sec h2{font-size:clamp(2.1rem,5vw,3.2rem);line-height:1.05}
+.lead{color:var(--muted);margin-top:.6rem;font-size:1.1rem}
+.pk{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem;margin-top:2.5rem}
+.card{border:1px solid var(--line);border-radius:20px;padding:1.6rem;display:flex;flex-direction:column;background:#fff;transition:border-color .2s,box-shadow .2s}
+.card:hover{border-color:var(--brass);box-shadow:0 10px 28px rgba(0,0,0,.08)}
+.card.big{background:var(--ink);color:#fff;border-color:var(--ink)}
+.card h3{font-family:var(--display);font-weight:500;font-size:1.35rem;line-height:1.15}
+.card .tagline{display:inline-block;align-self:flex-start;background:var(--brass);color:var(--ink);font-weight:700;font-size:.78rem;padding:.15rem .7rem;border-radius:999px;margin-bottom:.7rem}
+.price{font-family:var(--display);font-size:2.8rem;line-height:1;margin:.9rem 0 1rem}
+.card.big .price{color:var(--brass)}
+.card ul{list-style:none;display:grid;gap:.55rem;margin-bottom:1.5rem}
+.card li{padding-left:1.4rem;position:relative}
+.card li::before{content:"";position:absolute;left:0;top:.55em;width:.6rem;height:2px;background:var(--brass)}
+.card .btn{margin-top:auto;align-self:flex-start}
+.fine{margin-top:1.4rem;color:var(--muted)}
+.band{background:var(--blush);padding:80px 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.ws .price{margin:.5rem 0}
+.times{list-style:none;display:grid;gap:1rem;margin-top:1.5rem}
+.times li{border-left:3px solid var(--brass);padding-left:1rem;font-size:1.15rem}
+.times b{display:block;font-family:var(--display);font-weight:500;font-size:1.5rem}
+.quote{background:var(--ink);color:#fff;padding:80px 0;text-align:center}
+.quote blockquote{font-family:var(--display);font-size:clamp(1.6rem,3.6vw,2.6rem);line-height:1.25;max-width:24em;margin:0 auto}
+.quote cite{display:block;margin-top:1.2rem;font-style:normal;color:var(--brass);font-weight:600}
+.visit{background:var(--velvet);color:#fff;padding:80px 0}
+.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.visit h2{font-size:clamp(2.1rem,5vw,3.2rem);line-height:1.05}
+.visit .cta{margin-top:1.75rem;display:flex;flex-wrap:wrap;gap:.8rem}
+.facts{display:grid;gap:1.4rem}
+.facts div{border-left:3px solid var(--brass);padding-left:1rem}
+.facts b{display:block;font-size:.95rem;color:var(--brass);font-weight:600}
+.facts a{font-size:1.2rem;text-decoration:none}.facts a:hover{text-decoration:underline}
+footer{background:#050405;color:#bda9b5;padding:1.5rem 0;font-size:.9rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+@media (max-width:980px){.pk{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:860px){
+ nav a:not(.btn){display:none}
+ .hero{padding:110px 0 70px}.hero .wrap,.two,.visit .wrap{grid-template-columns:1fr}
+ .arch{max-width:300px}.sec,.band,.quote,.visit{padding:64px 0}
+}
+@media (max-width:560px){.pk{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="mark" href="index.html">Dance d’Elegance</a>
+  <nav aria-label="Main">
+    <a href="index.html#book">Classes</a>
+    <a href="#packages">Packages</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn-gold btn-sm" href="index.html#book">Book now</a>
+  </nav>
+</div></header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Wedding <em>dances.</em></h1>
+      <p>Your first dance, ready for the big day.</p>
+      <div class="cta">
+        <a class="btn btn-gold" href="#packages">See packages</a>
+        <a class="btn btn-line" href="#contact">Ask a question</a>
+      </div>
+    </div>
+    <div class="arch" role="img" aria-label="Bride and groom in a dance dip"></div>
+  </div>
+</section>
+
+<section class="sec" id="packages">
+  <div class="wrap">
+    <h2>Private wedding packages</h2>
+    <p class="lead">One teacher, just the two of you, and a dance made for your song.</p>
+    <div class="pk">
+      <article class="card">
+        <h3>This is Easy</h3>
+        <div class="price">$399</div>
+        <ul><li>4 private lessons</li><li>Dance to your song</li><li>2 practice hours</li></ul>
+        <a class="btn btn-dark btn-sm" href="mailto:dance@yourplace4.com?subject=Wedding%20package%3A%20This%20is%20Easy">Ask about this</a>
+      </article>
+      <article class="card">
+        <h3>We Can Dance</h3>
+        <div class="price">$699</div>
+        <ul><li>8 private lessons</li><li>Dance to your song</li><li>4 practice hours</li></ul>
+        <a class="btn btn-dark btn-sm" href="mailto:dance@yourplace4.com?subject=Wedding%20package%3A%20We%20Can%20Dance">Ask about this</a>
+      </article>
+      <article class="card">
+        <h3>Dang, We Look Good</h3>
+        <div class="price">$999</div>
+        <ul><li>12 private lessons</li><li>Dance to your song</li><li>6 practice hours</li></ul>
+        <a class="btn btn-dark btn-sm" href="mailto:dance@yourplace4.com?subject=Wedding%20package%3A%20Dang%2C%20We%20Look%20Good">Ask about this</a>
+      </article>
+      <article class="card big">
+        <span class="tagline">Family</span>
+        <h3>Ultimate Wedding</h3>
+        <div class="price">$1,699</div>
+        <ul><li>12 couple lessons</li><li>4 parent and child lessons</li><li>1 family line-dance class</li><li>Dances to 2 songs</li><li>6 practice hours</li></ul>
+        <a class="btn btn-gold btn-sm" href="mailto:dance@yourplace4.com?subject=Wedding%20package%3A%20Ultimate%20Wedding">Ask about this</a>
+      </article>
+    </div>
+    <p class="fine">Ballroom, Latin and more. Try your dance out at a studio party before the wedding.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap two">
+    <div class="ws">
+      <h2>Wedding dance workshop</h2>
+      <div class="price" style="font-family:var(--display);font-size:2.8rem;line-height:1">$199 <span style="font-size:1.1rem;color:var(--muted)">per couple</span></div>
+      <ul style="list-style:none;margin-top:1rem;display:grid;gap:.4rem;font-size:1.1rem">
+        <li>4 group lessons in the basics</li>
+        <li>Also for parents, father-daughter and mother-son dances</li>
+        <li>March, June and September only. Spots are limited.</li>
+      </ul>
+      <p style="margin-top:1.5rem"><a class="btn btn-dark" href="mailto:dance@yourplace4.com?subject=Wedding%20dance%20workshop">Reserve a spot</a></p>
+    </div>
+    <div>
+      <h2>When to start</h2>
+      <ul class="times">
+        <li><b>3 to 4 months ahead</b>Time for a full dance to your song.</li>
+        <li><b>1 to 2 months ahead</b>Last-minute? We can still help.</li>
+        <li><b>A year ahead</b>Start early and keep dancing after the wedding.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="wrap">
+    <blockquote>“It went off without a hitch and everyone loved it!”</blockquote>
+    <cite>Brian and Shay</cite>
+  </div>
+</section>
+
+<section class="visit" id="contact">
+  <div class="wrap">
+    <div>
+      <h2>Start planning your first dance</h2>
+      <div class="cta">
+        <a class="btn btn-gold" href="sms:+13309901451">Text the studio</a>
+        <a class="btn btn-line" href="tel:+13309901451">Call</a>
+        <a class="btn btn-line" href="mailto:dance@yourplace4.com?subject=Wedding%20dance%20lessons">Email</a>
+      </div>
+    </div>
+    <div class="facts">
+      <div><b>Studio</b><a href="https://www.google.com/maps/search/?api=1&query=750+E+Washington+St+Medina+OH+44256" target="_blank" rel="noopener">750 E. Washington St. #F1<br>Medina, OH 44256</a></div>
+      <div><b>Phone</b><a href="tel:+13309901451">330-990-1451</a></div>
+      <div><b>Email</b><a href="mailto:dance@yourplace4.com">dance@yourplace4.com</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="yr"></span> Dance d’Elegance</span><span><a href="index.html">Home</a> &nbsp;|&nbsp; <a href="https://www.facebook.com/dancedelegancemedina" target="_blank" rel="noopener">Facebook</a> &nbsp;|&nbsp; <a href="https://www.instagram.com/dance_delegance" target="_blank" rel="noopener">Instagram</a></span></div></footer>
+<script>document.getElementById("yr").textContent=new Date().getFullYear();</script>
+</body>
+</html>
